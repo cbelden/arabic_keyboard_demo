@@ -1,0 +1,39 @@
+.keyboard {
+    direction: ltr;
+}
+.row:nth-child(2) {
+  margin-left: 24px;
+}
+
+.row:nth-child(3) {
+  margin-left: 36px;
+}
+
+.row:nth-child(4) {
+  margin-left: 48px;
+}
+
+.row:nth-child(5) {
+  margin-left: 100px;
+}
+.row:nth-child(5) .key {
+  width: 160px;
+}
+  
+.key {
+    width: 24px;
+    height: 24px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .target.key {
+    border-color: #57ff00;
+  }
+  
+  .selected.key {
+    background-color: #57ff00;
+  }

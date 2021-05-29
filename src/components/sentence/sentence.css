@@ -1,0 +1,7 @@
+.sentence {
+    margin-bottom: 12px;
+}
+  
+.highlighted.letter {
+    background-color: #57ff00;
+}
