@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Arabic keyboard demo
+
+This is an MVP (minimal viable product) that shows students (the user) how
+to type in Arabic. The sentence that the student should type is rendered
+above an Arabic keyboard. The current character/key are highlighted, and
+the cursor in the sentence will advance as the user types.
+
+## Features
+
+* Keeps track of students position in sentence as they type
+* Highlights the next key to press in the keyboard
+* Highlights which keys are currently pressed
+
+## Known bugs
+
+* Some Arabic keys seem to be missing in the keyboard, and generally, the
+  layout might not be correct; update the keyboard data in
+  src/components/arabic_keyboard/data.js.
+
+## Running the app locally
+
+Follow the `create-react-app` instructions below. You can run this app by
+running `npm-start`.
+
+# General Info - Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
